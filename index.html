@@ -24,6 +24,11 @@
                 .linediv-r{
                     border-left: 1px white solid;
                 }
+                .wrapper{
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                }
             }
             
             /*Landscape phones and down*/
@@ -37,6 +42,11 @@
                 }
                 .linediv-r{
                     border-top: 1px white solid;
+                }
+                .wrapper{
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
                 }
             }
             
@@ -99,14 +109,20 @@
             .footer a{
                 color: #ccccff;
             }
+            .wrapper{
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+          
         </style>
     </head>
     <body>
-    
     <!-- Mobile friendly nav-bar adapted from example -->
     <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-inner">
+            
             <div class="container">
                 <button type="button" class="btn btn-navbar"
                         data-toggle="collapse" data-target=".nav-collapse">
@@ -125,7 +141,7 @@
             </div>
         </div>
     </div>
-    
+    <div class="wrapper">
         <!-- We use row-fluid inside containers to achieve a resizable layout -->
         <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ --> 
         <!-- http://stackoverflow.com/a/12270322 -->   
@@ -135,19 +151,19 @@
             <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
             <div class="row-fluid heading" >
                 <div class="span12">
-                    <h1>Product</h1>
+                    <h1>U-Bus</h1>
                 </div>
             </div>
             <div class="row-fluid subheading">
                 <div class="span12">
                     <!-- Special typography from Bootstarp for lead paragraph -->
                     <!-- http://twitter.github.io/bootstarp/base-css.html#typography -->
-                    <p class="lead">One Sentence Description</p>
+                    <p class="lead">The bus service that runs on your schedule</p>
                 </div>
             </div>
             <div class="row-fluid pitch">
                 <div class=span5 offset1 video">
-                    <img class="img-polaroid" src="http://placehold.it/480x300">
+                    <img class="img-polaroid" src="http://i.imgur.com/sUSfgiR.jpg">
                 </div>
                 
                 <!-- We define a new 'actions' div to contain statistics, order, and share buttons. -->
@@ -195,31 +211,25 @@
                     </div>
                 </div>
             </div>
-            
+    </div>
+    <!-- End of wrapper -->        
             <!-- Beyond this point the marketing copy begins -->
             <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
             <!-- http://twitter.github.io/bootstrap/base-css.html#images -->
             <!-- http://placehold.it -->
-            
+    <!-- next wrapper -->
+    <div class="wrapper">        
             <div class="row-fluid section1">
                 <div class="span5 offset1 asset">
-                    <img class="img-polaroid" src="http://placehold.it/480x300">
+                    <img class="img-polaroid" src="http://i.imgur.com/0Si60WB.jpg">
                 </div>
                 <div class="span5 copy">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ante tellus, 
-                        commodo ac justo eget, convallis pellentesque sapien. Nullam laoreet neque 
-                        sit amet leo imperdiet, sed tristique purus fringilla. Proin mi magna, 
-                        mollis id libero et, aliquet feugiat mauris. Quisque pellentesque ultrices 
-                        nisi eu fringilla. Donec sagittis sagittis est, id aliquet nisl dignissim ac. 
-                        Proin ut dictum dui, aliquet euismod libero. Aenean ultricies leo velit, vel 
-                        gravida elit vestibulum malesuada. Praesent ac mauris ac dolor accumsan pretium. 
-                        Quisque commodo vitae augue ornare laoreet. Class aptent taciti sociosqu ad litora 
-                        torquent per conubia nostra, per inceptos himenaeos. Aenean egestas erat eget erat 
-                        fringilla, ut tempus massa aliquet. Pellentesque tincidunt rutrum leo quis volutpat. 
-                        Donec blandit ultrices neque eget condimentum. Nunc pellentesque elit non nisl fringilla, 
-                        in placerat quam pharetra. Morbi sit amet urna a urna scelerisque molestie. 
-                        Proin sagittis facilisis ultrices.
+                        U-Bus is a bus service that runs to your schedule. The U-Bus app displays all available routes 
+                        and stops. You hail U-Bus from the app and it gives you a pick up time from your nearest stop. 
+                        U-Bus provides walking directions to your nearest stop, to get you there on time. And if that wasn't cool 
+                        enough U-Bus uses smart-route technology to pick up the most people for each trip minimizing the 
+                        cost normally associated with this kind of flexibility. 
                     </p>
                 </div>
             </div>
@@ -227,23 +237,16 @@
             <div class="row-fluid section2">
                 <div class="span5 offset1 copy copy-right">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ante tellus, 
-                        commodo ac justo eget, convallis pellentesque sapien. Nullam laoreet neque 
-                        sit amet leo imperdiet, sed tristique purus fringilla. Proin mi magna, 
-                        mollis id libero et, aliquet feugiat mauris. Quisque pellentesque ultrices 
-                        nisi eu fringilla. Donec sagittis sagittis est, id aliquet nisl dignissim ac. 
-                        Proin ut dictum dui, aliquet euismod libero. Aenean ultricies leo velit, vel 
-                        gravida elit vestibulum malesuada. Praesent ac mauris ac dolor accumsan pretium. 
-                        Quisque commodo vitae augue ornare laoreet. Class aptent taciti sociosqu ad litora 
-                        torquent per conubia nostra, per inceptos himenaeos. Aenean egestas erat eget erat 
-                        fringilla, ut tempus massa aliquet. Pellentesque tincidunt rutrum leo quis volutpat. 
-                        Donec blandit ultrices neque eget condimentum. Nunc pellentesque elit non nisl fringilla, 
-                        in placerat quam pharetra. Morbi sit amet urna a urna scelerisque molestie. 
-                        Proin sagittis facilisis ultrices.
+                        No more waiting for jammed buses with fixed schedules. You get a small roomy bus with a guaranteed 
+                        seat, wifi, air-conditioning, at the time you need it. No more overpriced taxis just to get the 
+                        flexibility you need. U-Bus can even be booked up to 24 hours in advance and will give you your
+                        stop and pick up time when you book. Or select a specific stop for a trip later in the day and U-Bus will
+                        be there for you - even giving a reminder message when it is time to head for your stop based on 
+                        your location and average walking time. 
                     </p>
                 </div>
                 <div class="span5 asset">
-                    <img class="img-polaroid" src="http://placehold.it/480x300">
+                    <img class="img-polaroid" src="http://i.imgur.com/2qJyq6b.jpg">
                 </div>
             </div>
             
@@ -257,13 +260,14 @@
                         <div class="accordion-group">
                             <div class="accordion-heading">
                                 <a class="accordion-toggle" data-toggle="collapse"
-                                    data-parent="#accordion2" href="collapseOne">
-                                    What doe FAQ stand for?
+                                    data-parent="#accordion2" href="#collapseOne">
+                                    How much will a trip on U-Bus cost?
                                 </a>
                             </div>
                             <div id="collapseOne" class="accordion-body collapse">
                                 <div class="accordion-inner">
-                                    Frequently Asked Question
+                                    It will differ from city to city. But rest assured it will be a fraction of the cost
+                                    of a taxi service and only slightly more than the regular bus service.
                                 </div>
                             </div>
                         </div>
@@ -271,17 +275,32 @@
                             <div class="accordion-heading">
                                 <a class="accordion-toggle" data-toggle="collapse"
                                     data-parent="#accordion2" href="#collapseTwo">
-                                    What is a Frequently Asked Question?
+                                    What type of buses will you use?
                                 </a>
                             </div>
                             <div id="collapseTwo" class="accordion-body collapse">
-                                A question which is commonly asked by users.
+                                We intend to use minibuses seating roughly 12 people in comfort. 
+                            </div>
+                        </div>
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse"
+                                    data-parent="#accordion2" href="#collapseThree">
+                                    What routes/stops do you cover?
+                                </a>
+                            </div>
+                            <div id="collapseThree" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    When U-Bus comes to your city we will start with already busy existing bus routes. 
+                                    Then based on our customer hailing patterns we will add new stops and routing. 
+                                    So our routes and stops will organically update to match our customers needs.
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
+        
         </div>
         
         <!-- Not crucial but we put this under a CC By-SA 3.0 License. -->
@@ -297,6 +316,7 @@
                 </p>
             </div>
         </div>
+    </div><!-- end of secon wrapper -->
     </div>
     </body>
 </html>
